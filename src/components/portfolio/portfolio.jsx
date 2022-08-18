@@ -1,11 +1,11 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.jpg'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG1 from '../../assets/portfolio1.png'
+import IMG2 from '../../assets/portfolio2.png'
+import IMG3 from '../../assets/portfolio3.png'
+import IMG4 from '../../assets/portfolio4.png'
+import IMG5 from '../../assets/portfolio5.png'
+import IMG6 from '../../assets/portfolio6.png'
 
 // USE THIS METHODE IF YOU HAVE A PORTFOLIO WITH LIVE DEMOS ---(just select the code and press CTRL + /) //
 
@@ -98,7 +98,7 @@ const portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG1} alt=""/>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Portfolio item 1</h3>
           <div className="portfolio__item-cta">
             <a href="#" className='btn' target='_blank'>Github</a>
             <a href="#" className='btn btn-primary' target='_blank'>Live Demo</a>
@@ -106,9 +106,9 @@ const portfolio = () => {
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={IMG1} alt=""/>
+            <img src={IMG2} alt=""/>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Portfolio item 2</h3>
           <div className="portfolio__item-cta">
             <a href="#" className='btn' target='_blank'>Github</a>
             <a href="#" className='btn btn-primary' target='_blank'>Live Demo</a>
@@ -116,9 +116,9 @@ const portfolio = () => {
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={IMG1} alt=""/>
+            <img src={IMG3} alt=""/>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Portfolio item 3</h3>
           <div className="portfolio__item-cta">
             <a href="#" className='btn' target='_blank'>Github</a>
             <a href="#" className='btn btn-primary' target='_blank'>Live Demo</a>
@@ -126,9 +126,9 @@ const portfolio = () => {
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={IMG1} alt=""/>
+            <img src={IMG4} alt=""/>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Portfolio item 4</h3>
           <div className="portfolio__item-cta">
             <a href="#" className='btn' target='_blank'>Github</a>
             <a href="#" className='btn btn-primary' target='_blank'>Live Demo</a>
@@ -136,9 +136,9 @@ const portfolio = () => {
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={IMG1} alt=""/>
+            <img src={IMG5} alt=""/>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Portfolio item 5</h3>
           <div className="portfolio__item-cta">
             <a href="#" className='btn' target='_blank'>Github</a>
             <a href="#" className='btn btn-primary' target='_blank'>Live Demo</a>
@@ -146,9 +146,9 @@ const portfolio = () => {
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={IMG1} alt=""/>
+            <img src={IMG6} alt=""/>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Portfolio item 6</h3>
           <div className="portfolio__item-cta">
             <a href="#" className='btn' target='_blank'>Github</a>
             <a href="#" className='btn btn-primary' target='_blank'>Live Demo</a>
